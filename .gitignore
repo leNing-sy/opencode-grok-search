@@ -1,0 +1,21 @@
+node_modules/
+dist/
+coverage/
+
+.env
+.env.*
+!.env.example
+
+# Local OpenCode configuration and backups
+opencode.json
+opencode.jsonc
+*.bak
+*.bak-*
+
+# Private keys and certificates
+*.pem
+*.key
+
+*.log
+.DS_Store
+Thumbs.db

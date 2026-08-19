@@ -1,0 +1,16 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "experimental": {
+    "mcp_timeout": 180000
+  },
+  "mcp": {
+    "exa": {
+      "enabled": true,
+      "headers": {
+        "x-api-key": "{env:EXA_API_KEY}"
+      },
+      "type": "remote",
+      "url": "https://mcp.exa.ai/mcp"
+    }
+  }
+}
